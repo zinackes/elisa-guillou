@@ -42,7 +42,14 @@ body{
 .navbar-right{
   display: flex;
 }
+.navbar-right-content{
+  padding-top: 18.5px;
+}
 .navbar-right-content a{
   text-decoration: none;
   color: black;
+}
+
+.navbar-link{
+  margin-right: 15px;
 }

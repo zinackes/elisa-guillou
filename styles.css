@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  background-color: lightgray;
+  font-family: 'poppins', sans-serif;
+
+}
+
+.navbar{
+  position: fixed;
+  background-color: white;
+  height: 90px;
+  width: 100%;
+}
+.navbar-content{
+  max-height: 90px;
+}
+
+.navbar-container{
+  max-height: 80px;
+  display: flex;
+}
+
+.navbar-padding{
+  padding: 15px;
+}
+.navbar-logo{
+  margin-right: 100px;
+}
+
+.navbar-logo a{
+  display: flex;
+  float: left;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-logo-text{
+  font-weight: bold;
+  padding-top: 18.5px;
+}
+
+.navbar-right{
+  display: flex;
+}
+.navbar-right-content a{
+  text-decoration: none;
+  color: black;
+}

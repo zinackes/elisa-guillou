@@ -10,6 +10,7 @@ body{
   background-color: white;
   height: 90px;
   width: 100%;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
 .navbar-content{
   max-height: 90px;
@@ -24,7 +25,8 @@ body{
   padding: 15px;
 }
 .navbar-logo{
-  margin-right: 100px;
+  margin-right: auto;
+  padding-left: 30px;
 }
 
 .navbar-logo a{
@@ -41,6 +43,7 @@ body{
 
 .navbar-right{
   display: flex;
+  padding-right: 35px;
 }
 .navbar-right-content{
   padding-top: 18.5px;
@@ -52,4 +55,13 @@ body{
 
 .navbar-link{
   margin-right: 15px;
+}
+
+.navbar-link:hover{
+  color: #67B7D1;
+  transition: all 0.3s ease;
+}
+
+.navbar-link.active{
+  color: #69a6c2;
 }
